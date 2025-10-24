@@ -1,0 +1,81 @@
+/* 
+ * Gov.co (https://www.gov.co) - Gobierno de Colombia
+ * Fuentes oficiales del gobierno colombiano
+ * Versión: 4.0.0
+ */
+
+/* Fuente iconográfica */
+@font-face {
+  font-family: "govco-font";
+  src: url("/fonts/govco/icons/fonts/govco-font-icons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Montserrat - Fuente para títulos */
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('/fonts/govco/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('/fonts/govco/Montserrat/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('/fonts/govco/Montserrat/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-MediumItalic';
+  src: url('/fonts/govco/Montserrat/Montserrat-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Work Sans - Fuente para texto general */
+@font-face {
+  font-family: 'WorkSans-Regular';
+  src: url('/fonts/govco/Work_Sans/static/WorkSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'WorkSans-Medium';
+  src: url('/fonts/govco/Work_Sans/static/WorkSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'WorkSans-Bold';
+  src: url('/fonts/govco/Work_Sans/static/WorkSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'WorkSans-SemiBold';
+  src: url('/fonts/govco/Work_Sans/static/WorkSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Variables CSS para fuentes */
+:root {
+  --font-govco-title: 'Montserrat-SemiBold', system-ui, -apple-system, sans-serif;
+  --font-govco-subtitle: 'Montserrat-Medium', system-ui, -apple-system, sans-serif;
+  --font-govco-body: 'WorkSans-Regular', system-ui, -apple-system, sans-serif;
+  --font-govco-body-medium: 'WorkSans-Medium', system-ui, -apple-system, sans-serif;
+  --font-govco-body-bold: 'WorkSans-Bold', system-ui, -apple-system, sans-serif;
+  --font-govco-icons: 'govco-font', system-ui, -apple-system, sans-serif;
+}

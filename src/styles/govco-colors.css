@@ -1,0 +1,90 @@
+/* 
+ * Gov.co (https://www.gov.co) - Gobierno de Colombia
+ * Paleta de colores institucionales
+ * Versión: 4.0.0
+ */
+
+/* Variables CSS para colores institucionales */
+:root {
+  /* Colores principales */
+  --govco-blue-dark: #004884;
+  --govco-marine: #3366CC;
+  --govco-blue-light: #c9e2ff;
+  
+  /* Colores de texto */
+  --govco-black: #000000;
+  --govco-tundora: #4B4B4B;
+  --govco-dim-gray: #737373;
+  --govco-silver: #BABABA;
+  
+  /* Colores de fondo */
+  --govco-concrete: #F2F2F2;
+  --govco-hawkes-blue: #F6F8F9;
+  --govco-white: #FFFFFF;
+  
+  /* Colores de estado */
+  --govco-success: #068460;
+  --govco-warning: #FFAB00;
+  --govco-error: #A80521;
+  --govco-info: #3366CC;
+  
+  /* Colores adicionales */
+  --govco-radical-red: #F42F63;
+  --govco-shiraz: #A80521;
+  --govco-orange: #F3561F;
+  --govco-gold: #FFAB00;
+  --govco-elf-green: #068460;
+  
+  /* Colores de presidencia */
+  --govco-dodger-blue: #3772FF;
+  --govco-blue-capri: #81ABFF;
+  --govco-blue-denim: #4573D0;
+  --govco-blue-lake: #5B8BFF;
+  --govco-blue-quilt: #9DBEFF;
+  --govco-blue-ocean: #5881D5;
+  --govco-blue-marlin: #4A7EFF;
+  --govco-orange-v2: #FF6C00;
+  --govco-green: #069169;
+  --govco-red-flag: #D31F3F;
+  --govco-yellow: #FAD118;
+  --govco-gray: #f1f1f1;
+}
+
+/* Clases de utilidad para colores de texto */
+.govco-text-blue-dark { color: var(--govco-blue-dark); }
+.govco-text-marine { color: var(--govco-marine); }
+.govco-text-blue-light { color: var(--govco-blue-light); }
+.govco-text-black { color: var(--govco-black); }
+.govco-text-tundora { color: var(--govco-tundora); }
+.govco-text-dim-gray { color: var(--govco-dim-gray); }
+.govco-text-silver { color: var(--govco-silver); }
+.govco-text-white { color: var(--govco-white); }
+.govco-text-success { color: var(--govco-success); }
+.govco-text-warning { color: var(--govco-warning); }
+.govco-text-error { color: var(--govco-error); }
+.govco-text-info { color: var(--govco-info); }
+
+/* Clases de utilidad para colores de fondo */
+.govco-bg-blue-dark { background-color: var(--govco-blue-dark); }
+.govco-bg-marine { background-color: var(--govco-marine); }
+.govco-bg-blue-light { background-color: var(--govco-blue-light); }
+.govco-bg-black { background-color: var(--govco-black); }
+.govco-bg-tundora { background-color: var(--govco-tundora); }
+.govco-bg-dim-gray { background-color: var(--govco-dim-gray); }
+.govco-bg-silver { background-color: var(--govco-silver); }
+.govco-bg-concrete { background-color: var(--govco-concrete); }
+.govco-bg-hawkes-blue { background-color: var(--govco-hawkes-blue); }
+.govco-bg-white { background-color: var(--govco-white); }
+.govco-bg-success { background-color: var(--govco-success); }
+.govco-bg-warning { background-color: var(--govco-warning); }
+.govco-bg-error { background-color: var(--govco-error); }
+.govco-bg-info { background-color: var(--govco-info); }
+
+/* Clases de utilidad para bordes */
+.govco-border-blue-dark { border-color: var(--govco-blue-dark); }
+.govco-border-marine { border-color: var(--govco-marine); }
+.govco-border-blue-light { border-color: var(--govco-blue-light); }
+.govco-border-success { border-color: var(--govco-success); }
+.govco-border-warning { border-color: var(--govco-warning); }
+.govco-border-error { border-color: var(--govco-error); }
+.govco-border-info { border-color: var(--govco-info); }
