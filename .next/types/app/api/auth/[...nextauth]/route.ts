@@ -1,4 +1,4 @@
-// File: D:\2025\DNP\Delegaciones\Repositorio\DelegacionesApp\src\app\api\auth\[...nextauth]\route.ts
+// File: D:\2025\DNP\Delegaciones\Repositorio\Delegaciones\src\app\api\auth\[...nextauth]\route.ts
 import * as entry from '../../../../../../src/app/api/auth/[...nextauth]/route.js'
 import type { NextRequest } from 'next/server.js'
 
